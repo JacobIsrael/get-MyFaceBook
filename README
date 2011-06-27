@@ -1,0 +1,49 @@
+README
+--------------------------------------------
+get My FaceBook Profile v. 0.1
+
+Simple way to get a Facebook profile
+
+(c) 2011 Jacob Israel Cervantes Luevano
+--------------------------------------------
+
+TABLE OF CONTENTS
+I.   INTRODUCTION		
+II.  DOCUMENTATION
+III. CONTACT INFO
+IV.  REPORTING BUGS
+
+Project WebSite: http://frenesssi.wordpress.com/2011/04/07/get-my-facebook-using-gtk-and-webkit
+
+I. INTRODUCTION
+Because social media and social networks like facebook and twitter there are very important in our lifes today, I  wrote a simple C application that runs in the GNOME desktop. the main idea is try to launch a facebook profile from command line.
+
+get MyFacebook is developed using C, Gtk ,Webkit and gcc compliers
+
+II. DOCUMENTATION
+Usage:
+
+How to compile ?
+
+to compile C source code you will need to run:
+
+$ gcc `pkg-config –cflags –libs gtk+-2.0 webkit-1.0` getmyfacebook.c -o getmyfacebook
+
+How to run ?
+
+$ ./getmyfacebook --facebook-profile GNOMEDesktop
+
+$ ./getmyfacebook --facebook-profile giakob
+
+III. CONTACT INFO
+Feel free to contact me if you have any comments, suggestions, questions, complaints, whatever.
+
+Jacob Israel Cervantes Luevano
+Irapuato, Guanajuato México
+
+Email: jacob@jacob-israel.com.mx
+Email: jacobnix@gmail.com
+WebSite: http://www.jacob-israel.com.mx/blog
+
+IV. REPORTING BUGS
+Email me please
